@@ -15,12 +15,15 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Nav bar top -->
-    <nav id="navbar">
-      <a href="#contact-form">Contact</a>
-      <a href="#social-section">Social</a>
+    <nav id="navbar" class="gradient">
+      <a href="#social-section">Contact</a>
       <a href="#about-section">About</a>
       <a href="#projects">Projects</a>
       <a href="#welcome-section">Home</a>
@@ -44,20 +47,57 @@
         <!-- First row - projects -->
         <div class="tile-row">
           <div class="project-tile">
-            <img
-              src="images/Arduino Thumbnail.png"
-              alt="image of project"
-              height="300"
-            />
+            <a href="https://github.com/Gainzislife/Battleships" target="_blank"
+              ><img
+                src="images/battleship.png"
+                alt="battleship picture"
+                height="300"
+            /></a>
             <div class="tile-content">
-              <a href="#" target="_blank">Water-level Control System -- C</a>
+              <a
+                href="https://github.com/Gainzislife/Battleships"
+                target="_blank"
+                >Battleship -- Python</a
+              >
             </div>
           </div>
           <div class="project-tile">
-            <img
-              src="images/Visual Basic Thumbnail.png"
-              alt="image of project"
-            />
+            <a href="https://github.com/Gainzislife/Snake-Game" target="_blank">
+              <img src="images/snake.png" alt="snake picture" />
+            </a>
+            <div class="tile-content">
+              <a
+                href="https://github.com/Gainzislife/Snake-Game"
+                target="_blank"
+                >Snake -- JavaScript</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row - projects -->
+        <div class="tile-row">
+          <div class="project-tile">
+            <a href="#"
+              ><img
+                src="images/Arduino Thumbnail.png"
+                alt="image of arduino design project"
+                height="300"
+            /></a>
+            <div class="tile-content">
+              <a href="#">Water-level Control System -- C/Arduino</a>
+            </div>
+          </div>
+          <div class="project-tile">
+            <a
+              href="https://github.com/Gainzislife/GW-Motor-Association"
+              target="_blank"
+            >
+              <img
+                src="images/Visual Basic Thumbnail.png"
+                alt="app home window"
+              />
+            </a>
             <div class="tile-content">
               <a
                 href="https://github.com/Gainzislife/GW-Motor-Association"
@@ -68,10 +108,16 @@
           </div>
         </div>
 
-        <!-- Second row - projects -->
+        <!-- Third row - projects -->
         <div class="tile-row">
           <div class="project-tile">
-            <img src="images/Fuel App Thumbnail.png" alt="image of project" />
+            <a
+              href="https://github.com/Gainzislife/Android-Petrol-App"
+              target="_blank"
+              ><img
+                src="images/Fuel App Thumbnail.png"
+                alt="image of pertol pump"
+            /></a>
             <div class="tile-content">
               <a
                 href="https://github.com/Gainzislife/Android-Petrol-App"
@@ -81,7 +127,9 @@
             </div>
           </div>
           <div class="project-tile">
-            <img src="images/Java App Thumbnail.png" alt="image of project" />
+            <a href="https://github.com/Gainzislife/L3_T8" target="_blank"
+              ><img src="images/Java App Thumbnail.png" alt="app console view"
+            /></a>
             <div class="tile-content">
               <a href="https://github.com/Gainzislife/L3_T8" target="_blank"
                 >Management System, Database -- Java</a
@@ -103,18 +151,18 @@
         </p>
         <p>
           I have skills in various programming languages, and I'm familiar with
-          modern technologies. I am an active listener and highly motivated. I am
-          an independent thinker and efficient worker.
+          modern technologies. I am an active listener and highly motivated. I
+          am an independent thinker and efficient worker.
         </p>
         <p>
           I have experienced interesting work that gave me excellent leadership,
-          communication, and scheduling skills. I believe I have a good skill set
-          that can be well incorporated into any working environment.
+          communication, and scheduling skills. I believe I have a good skill
+          set that can be well incorporated into any working environment.
         </p>
       </div>
     </section>
 
-    <!-- Social section -->
+    <!-- Social & contact section -->
     <section id="social-section">
       <div class="container">
         <div class="card">
@@ -187,23 +235,9 @@
       </div>
     </section>
 
-    <!-- Contact Form -->
-    <section class="contact-form" id="contact-form">
-      <h2>Contact Me</h2>
-      <form id="form" action="mailto:jacosteyn1990@gmail.com" method="POST" enctype="text/plain" name="emailform">
-        <label for="name">Name:</label><br>
-        <input type="text" name="name" placeholder="Enter your name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" name="email" placeholder="Enter your email" required><br>
-        <label for="message">Message:</label><br>
-        <textarea name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br>
-        <input type="submit" value="Submit">
-      </form>
-    </section>
-
     <!-- Footer -->
-    <footer id="footer">
-      <p>&copy; Created by GJ Steyn, 2020</p>
+    <footer id="footer" class="gradient">
+      <p>2020 &copy; GJ Steyn</p>
     </footer>
   </body>
 </html>
