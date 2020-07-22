@@ -147,6 +147,18 @@ h2 {
   padding: 2px 16px;
 }
 
+#more-projects {
+  text-decoration: underline;
+  color: black;
+  font-size: 30px;
+  padding: 5px 5px;
+}
+
+#more-projects:hover {
+  text-decoration: none;
+  background-color: #4aada9;
+}
+
 /* About section */
 #about-section {
   padding: 40px 0 40px 0;
