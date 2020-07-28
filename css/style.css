@@ -71,6 +71,7 @@ h2 {
 #welcome-photo img {
   height: 400px;
   border-radius: 50%;
+  border: 2px solid black;
 }
 
 .welcome-text-p {
@@ -150,6 +151,7 @@ h2 {
   transition: 0.3s;
   margin: 30px 10px;
   background: linear-gradient(90deg, rgba(131,197,190,1) 0%, rgba(0,109,119,1) 100%);
+  border: 1px solid black;
 }
 
 .project-tile:hover {
